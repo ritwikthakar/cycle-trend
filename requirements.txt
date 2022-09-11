@@ -3,4 +3,4 @@ yfinance
 matplotlib
 pandas
 mplfinance
-talib
+TA-Lib
