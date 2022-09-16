@@ -51,8 +51,13 @@
 # make install
 # pip install Ta-Lib
 
-pip install TA_Lib-0.4.17-cp37-cp37m-win_amd64.whl
+url = ‘https://launchpad.net/~mario-mariomedina/+archive/ubuntu/talib/+files'
+wget $url/libta-lib0_0.4.0-oneiric1_amd64.deb -qO libta.deb
+wget $url/ta-lib0-dev_0.4.0-oneiric1_amd64.deb -qO ta.deb
+dpkg -i libta.deb ta.deb
+pip install ta-lib
 
+import talib
 import pandas as pd
 import numpy as np
 import yfinance as yf
