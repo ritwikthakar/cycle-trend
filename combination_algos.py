@@ -51,7 +51,7 @@ from ctypes import *
 import pandas as pd
 import numpy as np
 import yfinance as yf
-import talib
+import ta-lib
 import matplotlib.pyplot as plt
 import mplfinance as mpf
 from plotly.subplots import make_subplots
