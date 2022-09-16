@@ -51,7 +51,7 @@
 # make install
 # pip install Ta-Lib
 
-url = ‘https://launchpad.net/~mario-mariomedina/+archive/ubuntu/talib/+files'
+url = 'https://launchpad.net/~mario-mariomedina/+archive/ubuntu/talib/+files'
 wget $url/libta-lib0_0.4.0-oneiric1_amd64.deb -qO libta.deb
 wget $url/ta-lib0-dev_0.4.0-oneiric1_amd64.deb -qO ta.deb
 dpkg -i libta.deb ta.deb
