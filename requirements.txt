@@ -4,3 +4,4 @@ matplotlib
 pandas
 mplfinance
 requests
+TA-Lib
