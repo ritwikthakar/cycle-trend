@@ -61,7 +61,6 @@ import numpy as np
 import yfinance as yf
 import matplotlib.pyplot as plt
 import mplfinance as mpf
-from plotly.subplots import make_subplots
 import streamlit as st
 ticker = st.sidebar.text_input('Enter Ticker', 'SPY')
 t = st.sidebar.selectbox('Select Number of Days', ('1d','5d','1mo','3mo','6mo','1y','2y','5y','10y','ytd','max'))
