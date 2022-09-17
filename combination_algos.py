@@ -43,14 +43,14 @@ if not os.path.isdir("/tmp/ta-lib"):
 # add the library to our current environment
 from ctypes import *
 
-lib = CDLL("/home/appuser/lib/libta_lib.so.0.0.0")
+# lib = CDLL("/home/appuser/lib/libta_lib.so.0.0.0")
 # import library
-try:
-    import talib
-except ImportError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "--global-option=build_ext", "--global-option=-L/home/appuser/lib/", "--global-option=-I/home/appuser/include/", "ta-lib"])
-finally:
-    import talib
+# try:
+#     import talib
+# except ImportError:
+#     subprocess.check_call([sys.executable, "-m", "pip", "install", "--global-option=build_ext", "--global-option=-L/home/appuser/lib/", "--global-option=-I/home/appuser/include/", "ta-lib"])
+# finally:
+#     import talib
 # pip install mplfinance
 
 # !pip install streamlit
